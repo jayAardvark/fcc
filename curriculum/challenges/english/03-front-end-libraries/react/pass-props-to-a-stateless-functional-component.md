@@ -26,7 +26,7 @@ It is standard to call this value `props` and when dealing with stateless functi
 
 # --instructions--
 
-There are `Calendar` and `CurrentDate` components in the code editor. When rendering `CurrentDate` from the `Calendar` component, pass in a property of `date` assigned to the current date from JavaScript's `Date` object. Then access this `prop` in the `CurrentDate` component, showing its value within the `p` tags. Note that for `prop` values to be evaluated as JavaScript, they must be enclosed in curly brackets, for instance `date={Date()}`.
+There are `Calendar` and `CurrentDate` components in the code editor. Render the `CurrentDate` component in the `Calendar` component. Assign the current date (accessed from JavaScript’s Date object) to a `prop` called `date`. Then access this `prop` in the `CurrentDate` component, showing its value within the `p` tags. Note that for `prop` values to be evaluated as JavaScript, they must be enclosed in curly brackets, for instance `date={Date()}`.
 
 # --hints--
 
